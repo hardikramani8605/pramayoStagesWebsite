@@ -13,10 +13,17 @@ function HeroContent() {
 					<h1>
 						<span className="aximo-title-animation">
 							Bradning
+<<<<<<< HEAD
 							
 						</span>{" "}
 						Web Solutions for Businesses.
                       <img src={StarImg} alt="StarImg" />
+=======
+							<img src={StarImg} alt="StarImg" />
+						</span>{" "}
+						Web Solutions for Businesses.
+
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 					</h1>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
@@ -47,7 +54,11 @@ function HeroContent() {
 						Book a free consultation <i className="icon-call"></i>
 					</Link>
 					<div className="aximo-hero-shape">
+<<<<<<< HEAD
 						{/* <img src={ShapeImg} alt="ShapeImg" /> */}
+=======
+						<img src={ShapeImg} alt="ShapeImg" />
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 					</div>
 				</FadeInStaggerTwoChildren>
 			</FadeInStaggerTwo>

@@ -54,8 +54,45 @@ function Accordion() {
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
+<<<<<<< HEAD
 			
 			
+=======
+			<FadeInStaggerTwoChildren className="accordion-item">
+				<h3 className="accordion-header">
+					<button
+						className="accordion-button"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#collapseFour"
+					>
+						04/ Launch and Evolve
+					</button>
+				</h3>
+				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#aximo-accordion">
+					<div className="accordion-body">
+					Ready to launch your business? We craft targeted strategies and continuously optimize them to achieve your goals.
+					</div>
+				</div>
+			</FadeInStaggerTwoChildren>
+			<FadeInStaggerTwoChildren className="accordion-item">
+				<h3 className="accordion-header">
+					<button
+						className="accordion-button"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#collapseFive"
+					>
+						05/ Measure and Improve
+					</button>
+				</h3>
+				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#aximo-accordion">
+					<div className="accordion-body">
+					Our experts constantly evaluate performance and feedback to refine strategies for optimal ROI.
+					</div>
+				</div>
+			</FadeInStaggerTwoChildren>
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 		</FadeInStaggerTwo>
 	);
 }

@@ -52,7 +52,30 @@ const testimonialsData = [
 function Testimonial() {
 	return (
 		<div className="section aximo-section-padding3">
+<<<<<<< HEAD
 			
+=======
+			<div className="container">
+				<div className="aximo-section-title center">
+					<h2>
+						Clients are always
+						<span className="aximo-title-animation">
+							satisfied with us
+							<span className="aximo-title-icon">
+								<img src={Star2Img} alt="Star2Img" />
+							</span>
+						</span>
+					</h2>
+				</div>
+				<div className="row">
+					{testimonialsData.map((testimonial, index) => (
+						<FadeInStagger index={index} className="col-lg-6" key={testimonial.id}>
+							<TestimonialCard testimonial={testimonial} />
+						</FadeInStagger>
+					))}
+				</div>
+			</div>
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 		</div>
 	);
 }

@@ -20,7 +20,11 @@ const servicesData = [
 		description:
 			"Let Pramayo push your business higher digitally through an attractive and user-friendly interface. Our WordPress and Shopify experts are standing by!",
 		icon: "icon-design-tools",
+<<<<<<< HEAD
 		link:"web-service",
+=======
+		link:"ui-ux-service",
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 	},
 	{
 		id: crypto.randomUUID(),
@@ -28,7 +32,10 @@ const servicesData = [
 		description:
 			"Want a logo and branding that leave a lasting impression? Pramayo brings your vision to life with creative designs and trendy aesthetics!",
 		icon: "icon-branding",
+<<<<<<< HEAD
 		link:"ui-ux-service",
+=======
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 	},
 	{
 		id: crypto.randomUUID(),
@@ -36,8 +43,11 @@ const servicesData = [
 		description:
 			"Pramayo builds high-performance apps to enhance business efficiency and engagement. Our secure, scalable solutions ensure a seamless user experience.",
 		icon: "icon-web",
+<<<<<<< HEAD
 		link:"application-service",
 		
+=======
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 	},
 	{
 		id: crypto.randomUUID(),
@@ -52,7 +62,10 @@ const servicesData = [
 		description:
 			"We enhance your brand with immersive Augmented Reality experiences, engaging your audience and creating interactive digital interactions for maximum impact.",
 		icon: "icon-design-thinking",
+<<<<<<< HEAD
 		link:"augmentedreality-service",
+=======
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 	},
 	{
 		id: crypto.randomUUID(),

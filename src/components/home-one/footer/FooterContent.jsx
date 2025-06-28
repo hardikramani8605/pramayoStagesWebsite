@@ -58,9 +58,15 @@ function FooterContent() {
 					</li>
 				</ul>
 			</div>
+<<<<<<< HEAD
 			{/* <div className="aximo-hero-shape aximo-footer-shape">
 				<img src={Shape1Img} alt="Shape1Img" />
 			</div> */}
+=======
+			<div className="aximo-hero-shape aximo-footer-shape">
+				<img src={Shape1Img} alt="Shape1Img" />
+			</div>
+>>>>>>> 2d186025344fbd93ca1bb1790f8ab21941bccd6e
 		</div>
 	);
 }
